@@ -1,0 +1,51 @@
+/* Wrapper for the whole app (already exists) */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Header and footer fixed size */
+header, footer {
+  flex-shrink: 0;
+}
+
+/* Main dashboard layout: sidebar + content side by side */
+.main-dashboard-layout {
+  flex: 1 1 auto; /* Grow and shrink */
+  display: flex;
+  overflow: hidden; /* Prevent content spilling out */
+}
+
+/* Sidebar fixed width, full height */
+.main-dashboard-layout > .sidebar {
+  width: 250px; /* Adjust as needed */
+  overflow-y: auto; /* Sidebar scroll if needed */
+  background-color: #346a7e; /* Or your color */
+}
+
+/* Content area takes remaining space and scrolls */
+.dashboard-content {
+  flex: 1 1 auto;
+  padding: 20px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  background: white;
+  box-sizing: border-box;
+}
+
+/* Footer styling to fix it at bottom */
+footer {
+  height: 60px; /* Or your footer height */
+  background-color: #222;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Optional: Benefit summary container scroll fix */
+.benefit-summary-container {
+  max-height: 100%;
+  overflow-y: auto;
+}

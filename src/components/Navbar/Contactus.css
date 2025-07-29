@@ -1,0 +1,107 @@
+.contact-pane-wrapper {
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .contact-form {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    animation: slideUp 0.5s ease;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #222;
+  }
+  
+  .contact-description {
+    font-size: 1rem;
+    text-align: center;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  .form-name input,
+  .form-email input,
+  .form-message input {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+    color: #111;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s ease;
+  }
+  
+  .form-message textarea {
+    height: 150px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+    color: #111;
+    resize: vertical;
+    padding: 0.9rem 1rem;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  input:focus,
+  textarea:focus,
+  input:hover,
+  textarea:hover {
+    border-color: #66b2ff; 
+    box-shadow: 0 0 0 2px rgba(102, 178, 255, 0.2);
+    outline: none;
+  }
+  
+  button.btn {
+    padding: 0.75rem 3rem;
+    background: #3a8bcd;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: white;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+  }
+  
+  button.btn:hover {
+    background: #5386b0; 
+    transform: translateY(-2px); 
+  }
+  
+  button.btn:active {
+    background: #39799e; 
+    transform: translateY(0); 
+  }
+  
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,0 +1,31 @@
+.footer {
+  position: sticky;
+  background-color: #f8f9fb;
+  padding: 20px 40px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+  color: #555;
+  position: relative;
+  margin-top: auto;
+}
+
+.footer-links {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #1a73e8;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #135abe;
+}
+
+.footer-copy {
+  font-style: italic;
+}

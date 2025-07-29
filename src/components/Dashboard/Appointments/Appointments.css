@@ -1,0 +1,148 @@
+.appointments-container {
+  max-width: 900px;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 15px;
+}
+
+.appointments-container h2,
+.appointments-container h3 {
+  color: #333;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.providers-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.providers-list li {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.providers-list li:hover {
+  background-color: #f0f7ff;
+}
+
+.selected-provider {
+  border-color: #4a90e2;
+  background-color: #e6f0ff;
+  font-weight: 600;
+}
+
+.date-time-selection label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.available-times strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.available-times div button {
+  margin: 4px 6px 4px 0;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: rgb(121, 132, 161);
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.available-times div button:hover {
+  background-color: #bbbdbe;
+}
+
+.selected-time {
+  border-color: #4a90e2;
+  background-color: #4a90e2;
+  color: white;
+  font-weight: 600;
+}
+
+.error-message {
+  color: red;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.confirm-button {
+  background-color: #e44545;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.confirm-button:hover {
+  background-color: #357abd;
+}
+
+.confirmation-message {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #4a90e2;
+  border-radius: 8px;
+  background-color: #e6f0ff;
+}
+
+.booked-appointments h3 {
+  margin-top: 40px;
+}
+
+.booked-appointments ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.booked-appointments li {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appt-info {
+  max-width: 80%;
+}
+
+.cancel-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.cancel-button:hover {
+  background-color: #c0392b;
+}
