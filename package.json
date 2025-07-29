@@ -1,7 +1,7 @@
 {
   "name": "for-your-care",
   "version": "0.1.0",
-  "homepage": "https://github.com/VasanthiM9/FOR-YOUR-CARE.git",
+  "homepage": "https://vasanthim9.github.io/FOR-YOUR-CARE/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
