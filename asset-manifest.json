@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/VasanthiM9/FOR-YOUR-CARE.git/static/css/main.ea4e2022.css",
-    "main.js": "/VasanthiM9/FOR-YOUR-CARE.git/static/js/main.0d670b3e.js",
-    "static/js/453.8b39a57a.chunk.js": "/VasanthiM9/FOR-YOUR-CARE.git/static/js/453.8b39a57a.chunk.js",
-    "static/media/background.png": "/VasanthiM9/FOR-YOUR-CARE.git/static/media/background.78d2fb9d819480f167ff.png",
-    "static/media/login.png": "/VasanthiM9/FOR-YOUR-CARE.git/static/media/login.f742f0eb3269b7619183.png",
-    "static/media/logo.png": "/VasanthiM9/FOR-YOUR-CARE.git/static/media/logo.9e5d65444c2c39729cc5.png",
-    "index.html": "/VasanthiM9/FOR-YOUR-CARE.git/index.html",
-    "main.ea4e2022.css.map": "/VasanthiM9/FOR-YOUR-CARE.git/static/css/main.ea4e2022.css.map",
-    "main.0d670b3e.js.map": "/VasanthiM9/FOR-YOUR-CARE.git/static/js/main.0d670b3e.js.map",
-    "453.8b39a57a.chunk.js.map": "/VasanthiM9/FOR-YOUR-CARE.git/static/js/453.8b39a57a.chunk.js.map"
+    "main.css": "/FOR-YOUR-CARE/static/css/main.ea4e2022.css",
+    "main.js": "/FOR-YOUR-CARE/static/js/main.3a4809ea.js",
+    "static/js/453.8b39a57a.chunk.js": "/FOR-YOUR-CARE/static/js/453.8b39a57a.chunk.js",
+    "static/media/background.png": "/FOR-YOUR-CARE/static/media/background.78d2fb9d819480f167ff.png",
+    "static/media/login.png": "/FOR-YOUR-CARE/static/media/login.f742f0eb3269b7619183.png",
+    "static/media/logo.png": "/FOR-YOUR-CARE/static/media/logo.9e5d65444c2c39729cc5.png",
+    "index.html": "/FOR-YOUR-CARE/index.html",
+    "main.ea4e2022.css.map": "/FOR-YOUR-CARE/static/css/main.ea4e2022.css.map",
+    "main.3a4809ea.js.map": "/FOR-YOUR-CARE/static/js/main.3a4809ea.js.map",
+    "453.8b39a57a.chunk.js.map": "/FOR-YOUR-CARE/static/js/453.8b39a57a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea4e2022.css",
-    "static/js/main.0d670b3e.js"
+    "static/js/main.3a4809ea.js"
   ]
 }
