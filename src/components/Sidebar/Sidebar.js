@@ -7,7 +7,8 @@ const Sidebar = ({ onLogout }) => {
     <div className="sidebar">
       <h3>Menu</h3>
       <nav>
-        <NavLink to="/benefits" className="nav-link">My Benefits</NavLink>
+        <NavLink to="/dashboard" className="nav-link">Dashboard</NavLink>
+        <NavLink to="/mybenefits" className="nav-link">My Benefits</NavLink>
         <NavLink to="/appointments" className="nav-link">Appointments</NavLink>
         <NavLink to="/notifications" className="nav-link">Notifications</NavLink>
         <NavLink to="/preferences" className="nav-link">Preferences</NavLink>

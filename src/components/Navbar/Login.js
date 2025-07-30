@@ -14,7 +14,7 @@ const Login = ({ onLogin }) => {
     const savedUser = JSON.parse(localStorage.getItem('user'));
     
     onLogin();
-    navigate('/mybenefits');
+    navigate('/dashboard');
 
     // if (
     //   savedUser &&

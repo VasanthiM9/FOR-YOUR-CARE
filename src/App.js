@@ -10,6 +10,7 @@ import ForgotUsername from './components/Navbar/forgot-username';
 import Signup from './components/Navbar/Signup';
 
 import Sidebar from './components/Sidebar/Sidebar';
+import Dashboard from './components/Dashboard/Dashboard';
 import MyBenefits from './components/Dashboard/MyBenefits/MyBenefits';
 import Appointments from './components/Dashboard/Appointments/Appointments';
 import Notifications from './components/Dashboard/Notifications/Notifications';
@@ -38,7 +39,8 @@ function App() {
             <Sidebar onLogout={handleLogout} />
             <div className="dashboard-content">
               <Routes>
-                <Route path="/" element={<Navigate to="/mybenefits" replace />} />
+                <Route path="/" element={<Dashboard/>} />
+                <Route path='/dashboard' element={<Dashboard/>} />
                 <Route path="/mybenefits" element={<MyBenefits />} />
                 <Route path="/appointments" element={<Appointments />} />
                 <Route path="/notifications" element={<Notifications />} />
